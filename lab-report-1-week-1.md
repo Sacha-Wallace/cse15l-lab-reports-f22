@@ -2,7 +2,8 @@
 
 1. **Installing VSCode**
 
-First off we'll need a text editor. Click on this link to download VSCode: [Link](https://code.visualstudio.com/)
+First off we'll need a text editor. Click on [this](https://code.visualstudio.com/) link to download VSCode.
+
 Follow the instructions on the website, and eventually you should end up with a screen similar to this.
 
 ![VSCodePhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/VSCodePhoto.png)
@@ -19,9 +20,9 @@ There may be a message if its your first time connecting, you will just have to 
 
 3. **Trying Some Commands**
 
-This is a list of common terminal commands:
+[This](https://www.guru99.com/linux-commands-cheat-sheet.html) is a list of common terminal commands:
 
-[Link](https://www.guru99.com/linux-commands-cheat-sheet.html)
+
 
 Here you can see I created a folder with my name on the account with mkdir, and then changed directories into it with cd. I used mkdir again to create another folder, and used cd to navigate into it. Finally I used the pwd command, which prints out your current path of directories.
 
