@@ -14,6 +14,8 @@ First off, open the terminal on your operating system and type in the following 
 
 `$ ssh cs15l*****@ieng6.ucsd.edu`
 
+![SSHCommandExamplePhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/SSHCommandExamplePhoto.png)
+
 There may be a message if its your first time connecting, you will just have to press enter. You should see an output similar to this, depicting a successful connection.
 
 ![RemoteConnectionPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/RemoteConnectionPhoto.png)
@@ -69,7 +71,9 @@ $ exit
 $ scp /Users/*Username*/.ssh/id_rsa.pub cs15l*****@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
-You are now able to connect to the remote server without having to enter your password. 
+You are now able to connect to the remote server without having to enter your password. As you can see below, it will not even prompt you for it after running the ssh command.
+
+![SSHConnectedPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/SSHConnectedPhoto.png)
 
 6. **Optimizing Remote Running**
 
