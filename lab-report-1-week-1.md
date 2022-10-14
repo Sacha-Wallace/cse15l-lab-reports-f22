@@ -6,7 +6,7 @@ First off we'll need a text editor. Click on [this](https://code.visualstudio.co
 
 Follow the instructions on the website, and eventually you should end up with a screen similar to this.
 
-![VSCodePhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/VSCodePhoto.png)
+![VSCodePhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/VSCodePhoto.png)
 
 2. **Remotely Connecting**
 
@@ -16,7 +16,8 @@ First off, open the terminal on your operating system and type in the following 
 
 There may be a message if its your first time connecting, you will just have to press enter. You should see an output similar to this, depicting a successful connection.
 
-![RemoteConnectionPhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/RemoteConnectionPhoto.png)
+![RemoteConnectionPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/RemoteConnectionPhoto.png)
+
 
 3. **Trying Some Commands**
 
@@ -26,7 +27,7 @@ There may be a message if its your first time connecting, you will just have to 
 
 Here you can see I created a folder with my name on the account with mkdir, and then changed directories into it with cd. I used mkdir again to create another folder, and used cd to navigate into it. Finally I used the pwd command, which prints out your current path of directories.
 
-![SomeCommandsPhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/SomeCommandsPhoto.png)
+![SomeCommandsPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/SomeCommandsPhoto.png)
 
 4. **Moving Files With scp**
 
@@ -40,7 +41,7 @@ It will request your password, and then notify you that the copy has been comple
 
 The output should look similar to this:
 
-![SCPCompletedPhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/SCPPhoto.png)
+![SCPCompletedPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/SCPPhoto.png)
 
 5. **Setting an SSH Key**
 
@@ -54,7 +55,7 @@ When prompted about the file location, hit enter to keep it in the default direc
 
 You should see multiple lines of output, some including the key's map like this:
 
-![SSHKeygenPhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/SSHKeygenPhoto.png)
+![SSHKeygenPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/SSHKeygenPhoto.png)
 
 Using the following commands, log onto the server and create a folder for the public key. Then use the scp command to copy the key.
 
@@ -78,4 +79,4 @@ Adding a semicolon on a line between statements will allow multiple statements t
 
 In addition, you can use the ssh command with a statement surrounded by quotes at the end. It will run the statement on the server without being logged in.
 
-![TricksPhoto](https://github.com/Sacha-Wallace/cse15l-lab-reports-f22/blob/main/TricksPhoto.png)
+![TricksPhoto](https://raw.githubusercontent.com/Sacha-Wallace/cse15l-lab-reports-f22/main/TricksPhoto.png)
