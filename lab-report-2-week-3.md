@@ -5,7 +5,6 @@
 This is the code for my SearchEngine class from week 2:
 
 ```
-{
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -53,7 +52,6 @@ class URLSplicer implements URLHandler{
             return "404 Not Found!";
         }
     }
-}
 }
 ```
 
