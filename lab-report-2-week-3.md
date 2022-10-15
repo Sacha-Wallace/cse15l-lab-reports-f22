@@ -4,7 +4,8 @@
 
 This is the code for my SearchEngine class from week 2:
 
-'''
+```
+{
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -53,7 +54,8 @@ class URLSplicer implements URLHandler{
         }
     }
 }
-'''
+}
+```
 
 This first url localhost:4000/add?s=anewstringtoadd adds "anewstringtoadd" to the list within the class, and then displays it. handleRequest takes in the URL, and then uses if statements and methods from the URI class to parse the URL. In this case since the URL contains /add?s, the method will add "anewstringtoadd" ( spliced by the = ) to the list of strings in the class.
 
@@ -71,7 +73,7 @@ The third url localhost:4000/search?s=app queries the list to find strings conta
 **Part 2**
 
 **Bug One**
-s
+
 In ArrayExamples.java, the method reverseInPlace() had an issue with how it accomplished its goal.
 
 Below is an example of a test run on this method in which the input induced a failure.
